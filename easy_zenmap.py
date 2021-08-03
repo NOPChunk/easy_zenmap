@@ -2,13 +2,12 @@
 
 import subprocess
 
+# STEP [1] Install requirements pkgs .
 subprocess.call(["apt", "install", "python3-pip"])
 subprocess.call(["pip", "install", "wget"])
+subprocess.call(["apt", "install", "alien", "-y"])
 
 import wget
-
-# STEP [1] Install alien pkg .
-subprocess.call(["apt", "install", "alien", "-y"])
 
 # STEP [2] Download requirements .
 # 2-A Download zenmap.rpm
