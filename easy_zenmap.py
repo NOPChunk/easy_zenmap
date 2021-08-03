@@ -45,8 +45,8 @@ subprocess.call(["rm", "-rf", "python-cairo_1.16.2-2ubuntu2_amd64.deb"])
 subprocess.call(["rm", "-rf", "python-gobject-2_2.28.6-14ubuntu1_amd64.deb"])
 subprocess.call(["rm", "-rf", "python-gtk2_2.24.0-5.1ubuntu2_amd64.deb"])
 
-# STEP [8] RUN zenmap GUI .
-subprocess.call(["zenmap"])
+# # STEP [8] RUN zenmap GUI .
+# subprocess.call(["zenmap"])
 
 
 
