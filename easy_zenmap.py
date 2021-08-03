@@ -2,6 +2,7 @@
 
 import subprocess
 
+subprocess.call(["apt", "install", "python3-pip"])
 subprocess.call(["pip", "install", "wget"])
 
 import wget
