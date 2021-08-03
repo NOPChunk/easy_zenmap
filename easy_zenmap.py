@@ -1,9 +1,13 @@
 #!usr/bin/env python3
 
-import wget, subprocess
+import subprocess
+
+subprocess.call(["pip", "install", "wget"])
+
+import wget
 
 # STEP [1] Install alien pkg .
-subprocess.call(["apt", "install", "alien"])
+subprocess.call(["apt", "install", "alien", "-y"])
 
 # STEP [2] Download requirements .
 # 2-A Download zenmap.rpm
